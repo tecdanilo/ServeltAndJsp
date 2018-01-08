@@ -71,7 +71,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute(USUARIO_LOGADO_SESSION, user);
 		} else {
 			forward = LOGIN;
-			session.setAttribute("mensagem","Usuário e senha não conferem");
+			request.setAttribute("mensagem","Usuário e senha não conferem");
 		}
 		
 		RequestDispatcher view = request.getRequestDispatcher(forward);

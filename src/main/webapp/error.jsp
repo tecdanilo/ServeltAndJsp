@@ -8,6 +8,6 @@
 <title>Erro</title>
 </head>
 <body>
-
+	Erro ao acessar a funcionalidade
 </body>
 </html>

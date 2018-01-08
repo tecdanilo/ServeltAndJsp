@@ -99,6 +99,7 @@ public class UsuarioSerlvet extends HttpServlet {
             }
         } else {
         	forward = LOGIN;
+        	mensagem = "Você não está logado no sistema!";
         }
         request.setAttribute("mensagem", mensagem);
 

@@ -19,7 +19,7 @@
 </head>
 <body>
 	<% 
-		String msg = (String) request.getAttribute("erro");
+		String msg = (String) request.getAttribute("mensagem");
 		if ( msg == null ) {
 			msg = "";
 		}

@@ -106,7 +106,7 @@ $( document ).ready(function() {
 									<%
 									ArrayList<UsuarioDTO> users = (ArrayList<UsuarioDTO>) request.getAttribute("users");
 									for (UsuarioDTO user : users){
-										%>
+									%>
 										<tr>
 											<td><a href="usuario?action=edit&id=<%= user.getId()%>" ><%= user.getId()%></a></td>
 											<td><%= user.getNome() %></td>
