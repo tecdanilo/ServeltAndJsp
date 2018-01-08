@@ -1,0 +1,23 @@
+{
+  "name": "webtest",
+  "authors": [
+    "Danilo da Silva <tecdanilo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net": "^1.10.12"
+  }
+}
